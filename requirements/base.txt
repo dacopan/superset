@@ -111,7 +111,7 @@ flask-babel==2.0.0
     # via flask-appbuilder
 flask-caching==2.3.0
     # via apache-superset
-flask-compress==1.15
+flask-compress==1.14
     # via apache-superset
 flask-jwt-extended==4.6.0
     # via flask-appbuilder

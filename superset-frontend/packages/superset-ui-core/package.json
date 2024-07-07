@@ -87,5 +87,8 @@
   },
   "publishConfig": {
     "access": "public"
+  },
+  "scripts": {
+    "build-esm": "BABEL_OUTPUT=esm babel src --extensions \".ts,.tsx,.js,.jsx\" --copy-files --out-dir esm"
   }
 }
